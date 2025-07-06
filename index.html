@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>story</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Stories</h1>
+    </div>
+    <div class="container">
+    <div class="story-container">
+        <h1>FRIENDSHIP</h1>
+        <h5>D</h5>
+        <p>Friendship is a close, trusting relationship built on mutual affection, loyalty, honesty, and support. Good friends accept you as you are, stand by you in tough times, and share joy in good times. Friendship enriches life by providing emotional support, happiness, and personal growth. To keep a friendship strong, it’s important to communicate, be reliable, and care for each other.</p>
+<button>Delete</button>
+    </div>
+
+
+    </div>
+
+
+    <script src="script.js" ></script>
+</body>
+</html> -->
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <h1>Stories</h1>
+  </div>
+  <div class="container">
+    <div class="story-container">
+      <h1>FRIENDSHIP</h1>
+      <h5>Author:D</h5>
+      <p>
+        Friendship is a close, trusting relationship built on mutual affection, loyalty, honesty, and support. Good friends accept you as you are, stand by you in tough times, and share joy in good times. Friendship enriches life by providing emotional support, happiness, and personal growth. To keep a friendship strong, it’s important to communicate, be reliable, and care for each other.
+      </p>
+      <button onclick="deletestory(event)">Delete</button>
+    </div>
+  </div>
+  <div class="popup-overlay"></div>
+  <div class="popup-box">
+     <h2>ADD STORY</h2>
+     <form>
+        <input type="text" style="padding: 1px;  margin: 1px;" placeholder="Story Title" id="story-title-input">
+         <input type="text" style="padding: 1px;  margin: 1px;"  placeholder="Story Author" id="story-author-input">
+         <br>
+         <textarea style="padding: 1px;  margin: 1px; "  placeholder="short description" id="story-description-input"></textarea>
+         <br>
+         <button style="padding: 1px;  margin: 1px;"  id="add-story">ADD</button>
+         <button style="padding: 1px; margin: 1px;"  id="cancel-popup">CANCEL</button>
+     </form>
+
+
+  </div>
+  
+  <button class="add-button" id="add-popup-button">+</button>
+  <script src="script.js"></script>
+</body>
+</html>
